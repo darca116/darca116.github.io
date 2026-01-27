@@ -32,3 +32,21 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+//プログレスバーのアニメーション
+(() => {
+    const elements = document.getElementsByClassName('scroll-action');
+    for (const elm of elements) {
+            const observer = new IntersectionObserver((entries) => {
+                for (const e of entries) { 
+                    if (e.isIntersecting) {
+                        p = elm.getAttribute("percent")
+                        elm.setAttribute("style","width: "+ p + "%");
+                    } else {
+                        elm.setAttribute("style","width: 0%");
+                    }
+                }
+            });
+        observer.observe(elm);
+    }
+})();
