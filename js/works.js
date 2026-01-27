@@ -13,8 +13,8 @@ const works_library = {
                     '・javascript(jQuery)・python(Django)・Postgres・gunicorn・nginx・github',
                     'deploy → sakuraVPS',
                     ].join('<br>'),
-        'github': 'https://github.com/oceantako/TETRIS_WEB',
-        'link': 'http://ryo-ryo-taro.com/tetris/login'
+        'github': 'https://github.com/darca116',
+        'link': ''
     },
     'team_portal': {
         'title': 'Team Portal',
@@ -32,8 +32,8 @@ const works_library = {
                     '・bootstrap・javascript(jQuery)・python(Django)・Postgres・gunicorn・nginx・github',
                     'deploy → sakuraVPS',
                     ].join('<br>'),
-        'github': 'https://github.com/oceantako/team_portal',
-        'link': 'http://153.127.11.145:8080/works/works_init'
+        'github': 'https://github.com/darca116',
+        'link': ''
     },
     'my_portfolio': {
         'title': 'Portforlio',
@@ -51,7 +51,26 @@ const works_library = {
                     '・bootstrap・javascript(jQuery)・nginx・github',
                     'deploy → sakuraVPS',
                     ].join('<br>'),
-        'github': '',
+        'github': 'https://github.com/darca116/darca116.github.io',
+        'link': ''
+    },
+    'maze': {
+        'title': 'maze',
+        'image': './assets/img/maze.png',
+        'image2': './assets/img/maze2.png',
+        'image3': './assets/img/maze3.png',
+        'explain': [
+                    '',
+                    'n*n の迷路をランダムに自動生成するjavascriptです。動かす場合はgithubからダウンロードしてください。',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '・javascript(jQuery)・',
+                    '',
+                    ].join('<br>'),
+        'github': 'https://github.com/darca116',
         'link': ''
     },
     'othello': {
@@ -70,27 +89,8 @@ const works_library = {
                     '・javascript(jQuery)・',
                     '',
                     ].join('<br>'),
-        'github': 'https://github.com/oceantako/othello',
-        'link': 'https://github.com/oceantako/othello'
-    },
-    'maze': {
-        'title': 'maze',
-        'image': './assets/img/maze.png',
-        'image2': './assets/img/maze2.png',
-        'image3': './assets/img/maze3.png',
-        'explain': [
-                    '',
-                    'n*n の迷路をランダムに自動生成するjavascriptです。動かす場合はgithubからダウンロードしてください。',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '・javascript(jQuery)・',
-                    '',
-                    ].join('<br>'),
-        'github': 'https://github.com/oceantako/meiro_game',
-        'link': 'https://github.com/oceantako/meiro_game'
+        'github': 'https://github.com/darca116',
+        'link': ''
     },
     'typing': {
         'title': 'typing',
@@ -108,7 +108,7 @@ const works_library = {
                     '・javascript(jQuery)・',
                     '',
                     ].join('<br>'),
-        'github': 'https://github.com/oceantako/TypingGame',
-        'link': 'https://github.com/oceantako/TypingGame'
+        'github': 'https://github.com/darca116',
+        'link': ''
     },
 }
