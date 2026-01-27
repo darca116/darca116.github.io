@@ -33,6 +33,38 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+//説明モーダルのオープン処理
+function open_explain(title) {
+    // モーダルタイトル編集
+    let title_elm = document.getElementById("explain_modal_title");
+    title_elm.innerHTML = works_library[title]["title"];
+
+    // モーダル説明文編集
+    let explain_elm = document.getElementById("explain_modal_explain");
+    explain_elm.innerHTML = works_library[title]["explain"];
+
+    // モーダル写真編集
+    let image_elm = document.getElementById("explain_modal_image");
+    image_elm.setAttribute("src", works_library[title]["image"]);
+
+    let image_elm2 = document.getElementById("explain_modal_image2");
+    image_elm2.setAttribute("src", works_library[title]["image2"]);
+
+    let image_elm3 = document.getElementById("explain_modal_image3");
+    image_elm3.setAttribute("src", works_library[title]["image3"]);
+
+    // モーダルダウンロードリンク編集
+    let file_elm = document.getElementById("explain_modal_footer");
+    file_elm.setAttribute("href", works_library[title]["github"]);
+
+    // モーダルリンク先編集
+    let link_elm = document.getElementById("link_modal_footer");
+    link_elm.setAttribute("href", works_library[title]["link"]);
+
+    const explainModal = new bootstrap.Modal(document.getElementById('exampleModal2'), {});
+    explainModal.show();
+}
+
 //プログレスバーのアニメーション
 (() => {
     const elements = document.getElementsByClassName('scroll-action');
