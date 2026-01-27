@@ -55,11 +55,15 @@ function open_explain(title) {
 
     // モーダルダウンロードリンク編集
     let file_elm = document.getElementById("explain_modal_footer");
-    file_elm.setAttribute("href", works_library[title]["github"]);
+    file_elm.href = works_library[title]["github"];
+    file_elm.target = "_blank";	
+    file_elm.rel = "noopener noreferrer";
 
     // モーダルリンク先編集
     let link_elm = document.getElementById("link_modal_footer");
-    link_elm.setAttribute("href", works_library[title]["link"]);
+    link_elm.href = works_library[title]["link"];
+    link_elm.target = "_blank";	
+    link_elm.rel = "noopener noreferrer";
 
     const explainModal = new bootstrap.Modal(document.getElementById('exampleModal2'), {});
     explainModal.show();
