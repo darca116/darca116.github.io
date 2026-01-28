@@ -53,33 +53,14 @@ function open_explain(title) {
     let image_elm3 = document.getElementById("explain_modal_image3");
     image_elm3.setAttribute("src", works_library[title]["image3"]);
 
-    // モーダルGitHubリンク編集
-    let githubUrl = works_library[title]["github"];
-    let githubWrapper = document.getElementById("github_wrapper");
-    let githubElm = document.getElementById("explain_modal_footer");
+    // モーダルダウンロードリンク編集
+    let file_elm = document.getElementById("explain_modal_footer");
+    file_elm.setAttribute("href", works_library[title]["github"]);
 
-    if (githubUrl) {
-        githubElm.setAttribute("href", githubUrl);
-        githubElm.setAttribute("target", "_blank");
-        githubElm.setAttribute("rel", "noopener noreferrer");
-        githubWrapper.classList.remove("d-none");
-    } else {
-        githubWrapper.classList.add("d-none");
-    }
+    // モーダルリンク先編集
+    let link_elm = document.getElementById("link_modal_footer");
+    link_elm.setAttribute("href", works_library[title]["link"]);
 
-    // モーダル外部リンク編集
-    let linkUrl = works_library[title]["link"];
-    let linkWrapper = document.getElementById("link_wrapper");
-    let linkElm = document.getElementById("link_modal_footer");
-
-    if (linkUrl) {
-        linkElm.setAttribute("href", linkUrl);
-        linkElm.setAttribute("target", "_blank");
-        linkElm.setAttribute("rel", "noopener noreferrer");
-        linkWrapper.classList.remove("d-none");
-    } else {
-        linkWrapper.classList.add("d-none");
-    }
 
     const explainModal = new bootstrap.Modal(document.getElementById('exampleModal2'), {});
     explainModal.show();
