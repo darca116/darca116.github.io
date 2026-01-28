@@ -6,7 +6,7 @@ BootStarapを使うのは初めてだったため、[この方](https://qiita.co
 # 使用技術
 BootStrap<br>
 javascript(jQuery)<br>
-github(github pages)<br>
+github(github pages)<br><br>
 BootStrapとjQueryでフロントのみの静的なサイトを作成し<br>
 Github Pagesを使って公開しています<br>
 # 工夫した点
