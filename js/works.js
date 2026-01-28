@@ -1,19 +1,20 @@
 const works_library = {
-    'tetris_web': {
-        'title': 'TETRIS GAME',
-        'image': './assets/img/tetrisweb.png',
-        'image2': './assets/img/tetrisweb2.png',
-        'image3': './assets/img/tetrisweb3.png',
+    'hakomob': {
+        'title': 'HAKO MOB(ハコモブ)',
+        'image': './assets/img/hakomob1.png',
+        'image2': './assets/img/hakomob2.png',
+        'image3': './assets/img/hakomob3.png',
         'explain': [
                     '',
-                    '大学のプロジェクト学習(複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う)で作成しました',
-                    '『AR技術で棒二森屋跡地(函館駅前)をハックする』というテーマから',
-                    'サーバ側では、ユーザIDとブロックの落下数をDBに登録し、ネット上のユーザ同士でランキングを競えるようにしました。',
+                    'ユーザーがモバイルで描いた絵が、AR空間上に浮かび上がるwebアプリケーションです',
+                    '大学のプロジェクト学習(複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う通年授業)で作成しました。',
+                    '『AR技術で棒二森屋跡地(函館駅前)をハックする』というテーマから、学生が主体となって開発したものです。',
+                    '8thwallというWebARアプリケーション向けの開発プラットフォームを使用しています。',
+                    '私は主に、3Dモデルの作成・お絵描き画面のデザインとフロントエンドの作成・ユーザが描いた絵のDBへの保存関連のプログラムを担当しました',
                     '',
-                    '・javascript(jQuery)・python(Django)・Postgres・gunicorn・nginx・github',
-                    'deploy → sakuraVPS',
+                    'javascript・A-Frame・Firebase・Blender・Figma',
                     ].join('<br>'),
-        'github': 'https://github.com/darca116',
+        'github': '',
         'link': ''
     },
     'team_portal': {
