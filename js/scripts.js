@@ -80,6 +80,9 @@ function open_explain(title) {
     } else {
         linkWrapper.classList.add("d-none");
     }
+
+    const explainModal = new bootstrap.Modal(document.getElementById('exampleModal2'), {});
+    explainModal.show();
 }
 
 //プログレスバーのアニメーション
