@@ -54,9 +54,9 @@ function open_explain(title) {
     image_elm3.setAttribute("src", works_library[title]["image3"]);
 
     // モーダルGitHubリンク編集
-    const githubUrl = works_library[title]["github"];
-    const githubWrapper = document.getElementById("github_wrapper");
-    const githubElm = document.getElementById("explain_modal_footer");
+    let githubUrl = works_library[title]["github"];
+    let githubWrapper = document.getElementById("github_wrapper");
+    let githubElm = document.getElementById("explain_modal_footer");
 
     if (githubUrl) {
         githubElm.setAttribute("href", githubUrl);
@@ -68,9 +68,9 @@ function open_explain(title) {
     }
 
     // モーダル外部リンク編集
-    const linkUrl = works_library[title]["link"];
-    const linkWrapper = document.getElementById("link_wrapper");
-    const linkElm = document.getElementById("link_modal_footer");
+    let linkUrl = works_library[title]["link"];
+    let linkWrapper = document.getElementById("link_wrapper");
+    let linkElm = document.getElementById("link_modal_footer");
 
     if (linkUrl) {
         linkElm.setAttribute("href", linkUrl);
