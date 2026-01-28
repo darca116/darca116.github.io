@@ -6,8 +6,8 @@ const works_library = {
         'image3': './assets/img/tetrisweb3.png',
         'explain': [
                     '',
-                    'jQueryの勉強目的で作ったテトリスゲームをDjangoでWebアプリケーション化しました。',
-                    'ブロックの落下や揃ったら消える処理などはjavascriptですべて一から実装しています。',
+                    '大学のプロジェクト学習(複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う)で作成しました',
+                    '『AR技術で棒二森屋跡地(函館駅前)をハックする』というテーマから',
                     'サーバ側では、ユーザIDとブロックの落下数をDBに登録し、ネット上のユーザ同士でランキングを競えるようにしました。',
                     '',
                     '・javascript(jQuery)・python(Django)・Postgres・gunicorn・nginx・github',
