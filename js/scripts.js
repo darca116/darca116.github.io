@@ -55,7 +55,14 @@ function open_explain(title) {
 
     // モーダルダウンロードリンク編集
     let file_elm = document.getElementById("explain_modal_footer");
-    file_elm.setAttribute("href", works_library[title]["github"]);
+    if(works_library[title]["github"]=="" || !works_library[title]["github"]){
+        file_elm.style.display = 'none';
+    }else{
+        file_elm.style.display = 'inline-block';
+        file_elm.setAttribute("href", works_library[title]["github"]);
+        file_elm.setAttribute("target","_blank");
+        file_elm.setAttribute("rel","noopener noreferrer");
+    }
 
     // モーダルリンク先編集
     let link_elm = document.getElementById("link_modal_footer");
