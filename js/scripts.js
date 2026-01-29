@@ -66,8 +66,14 @@ function open_explain(title) {
 
     // モーダルリンク先編集
     let link_elm = document.getElementById("link_modal_footer");
-    link_elm.setAttribute("href", works_library[title]["link"]);
-
+    if(works_library[title]["link"]=="" || !works_library[title]["link"]){
+        link_elm.style.display = 'none';
+    }else{
+        link_elm.style.display = 'inline-block';
+        link_elm.setAttribute("href", works_library[title]["link"]);
+        link_elm.setAttribute("target","_blank");
+        link_elm.setAttribute("rel","noopener noreferrer");
+    }
 
     const explainModal = new bootstrap.Modal(document.getElementById('exampleModal2'), {});
     explainModal.show();
