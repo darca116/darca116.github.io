@@ -5382,6 +5382,15 @@ textarea.form-control-lg {
   margin: calc(var(--bs-modal-footer-gap) * 0.5);
 }
 
+.modal-link {
+    color: #007bff;
+    text-decoration: underline;
+}
+.modal-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
 @media (min-width: 576px) {
   .modal {
     --bs-modal-margin: 1.75rem;
