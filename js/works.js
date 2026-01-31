@@ -6,9 +6,9 @@ const works_library = {
         'image3': './assets/img/hakomob3.png',
         'explain': [
                     '',
-                    'ユーザーがモバイルで描いた絵が、AR空間上に浮かび上がるwebARアプリケーションです',
+                    'ユーザーがモバイルで描いた絵が、AR空間上に浮かび上がるwebARアプリケーションです。',
                     '大学のプロジェクト学習で作成しました。',
-                    '(複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う通年授業)',
+                    '<a href="https://www.fun.ac.jp/project-learning" target="_blank" rel="noopener noreferrer" style="color: #007bff; text-decoration: underline;">(複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う通年授業)</a>',
                     '『AR技術で棒二森屋跡地(函館駅前)をハックする』というテーマから、学生が主体となって開発したものです。',
                     'WebARアプリケーション向けの開発プラットフォームの8thwallを使用しています。',
                     '主に、3Dモデルの作成・ユーザの描画を3Dモデルのテクスチャに適用するシステム・お絵描き画面のUI/UXデザインとフロントエンド作成・DBへの保存関連のシステム等を担当しました',
@@ -18,18 +18,16 @@ const works_library = {
         'github': '',
         'link': ''
     },
-    'team_portal': {
-        'title': 'Team Portal',
-        'image': './assets/img/teamportal.png',
-        'image2': './assets/img/teamportal2.png',
-        'image3': './assets/img/teamportal3.png',
+    'memocolle': {
+        'title': 'MemoColle(メモコレ)',
+        'image': './assets/img/memocolle1.png',
+        'image2': './assets/img/memocolle2.png',
+        'image3': './assets/img/memocolle3.png',
         'explain': [
                     '',
-                    'しばらくの間、SEの友人たちと開催していた勉強会(?)で友人たちが作った成果物を共有するためのサイトを自作してみました。',
-                    '作成中に勉強会が自然消滅してしまい、結局成果物登録をしているのは私だけの状態です。',
-                    '画面側はbootstrapを使用して作成しました。bootstrap勉強始めたての頃なのでＵＩ',
-                    'バックエンドはDjangoで実装しています。',
-                    '画像ファイルやソースコードをアップロードしたり、リンクを登録することが可能です。',
+                    'スマホで撮った大切な思い出の写真を思い出させてくれる、モバイルネイティブアプリケーションです。',
+                    '未来大在学時に学内ハッカソン「P2hacks2024」で作成しました。',
+                    '',
                     '',
                     '・bootstrap・javascript(jQuery)・python(Django)・Postgres・gunicorn・nginx・github',
                     'deploy → sakuraVPS',
