@@ -45,17 +45,14 @@ const works_library = {
         'image3': './assets/img/portfolio3.png',
         'explain': [
                     '',
-                    'このサイトです。主にbootstrapを使用して作成しています。',
-                    '大枠はインターネット上のテンプレートをもとにし、細部はbootstrapのコンポーネントやライブラリを用いてカスタマイズしています。',
-                    '携帯で見てもPCでも見ても表示が崩れないレスポンシブデザインを意識して作成しました。',
-                    '動く背景はhtml canvasにjavascriptでアニメーションを描画しています。',
-                    'アニメーションの基礎となるソースコードをchatgptに作成してもらい、カスタマイズしました。',
+                    'このサイトです。主にbootstrapで作成して、GitPagesを通して公開しています。',
+                    '大枠は<a href="https://startbootstrap.com/theme/resume" class="modal-link" target="_blank" rel="noopener noreferrer">インターネット上のテンプレート</a>をもとにし、細部はbootstrapのコンポーネントやライブラリを用いてカスタマイズしています。',
+                    '携帯で見てもPCでも見ても表示が大きく崩れない、レスポンシブデザインを意識して作成しました。',
                     '',
-                    '・bootstrap・javascript(jQuery)・nginx・github',
-                    'deploy → sakuraVPS',
+                    '・HTML・CSS・JavaScript(jQuery)・Bootstrap・github',
                     ].join('<br>'),
         'github': 'https://github.com/darca116/darca116.github.io',
-        'link': ''
+        'link': 'https://darca116.github.io/'
     },
     'maze': {
         'title': 'maze',
