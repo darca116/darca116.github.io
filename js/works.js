@@ -11,7 +11,7 @@ const works_library = {
                     '<a href="https://www.fun.ac.jp/project-learning" class="modal-link" target="_blank" rel="noopener noreferrer">(学生が複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う通年授業)</a>',
                     '',
                     '『AR技術で棒二森屋跡地(函館駅前)をハックする』というテーマから、学生が主体となって開発したものです。',
-                    'AR空間に出現するお絵描きが街で自由に動き回ることで、閉店してしまった棒二森屋跡地に再び「にぎわい」を生み出してくれます。',
+                    'AR空間に出現するお絵描きが街で自由に動き回ることで、閉店してしまった棒二森屋跡地に再び「にぎわい」を生み出すことを目指します。',
                     '',
                     'WebARアプリケーション向け開発プラットフォームの8thwallを使用しています。',
                     '主に、3Dモデルの作成・ユーザの描画を3Dモデルのテクスチャに適用するシステム・お絵描き画面のUI/UXデザインとフロントエンド作成・DBへの保存関連のシステム等を担当しました。',
@@ -84,11 +84,11 @@ const works_library = {
         'github': '',
         'link': ''
     },
-    'othello': {
+    'solme': {
         'title': 'Solme(ソルミー)',
-        'image': './assets/img/Solme1.png',
-        'image2': './assets/img/Solme2.png',
-        'image3': './assets/img/Solme3.png',
+        'image': './assets/img/solme1.png',
+        'image2': './assets/img/solme2.png',
+        'image3': './assets/img/solme3.png',
         'explain': [
                     '',
                     '日光を浴びることを習慣化させてくれる、モバイルアプリケーションです。',
