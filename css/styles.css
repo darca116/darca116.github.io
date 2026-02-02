@@ -10985,23 +10985,3 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-
-.works-grid {
-  display: grid;
-  /* 列の幅を18remに固定し、入るだけ並べる。
-     かつ、余った余白を列同士の隙間として自動分配する */
-  grid-template-columns: repeat(auto-fill, 18rem);
-  
-  /* 最小の隙間を1.5remに設定。
-     justify-content: space-between と組み合わせることで
-     「1.5rem以上、かつ左右ピッタリ」を実現する */
-  gap: 1.5rem;
-  justify-content: space-between;
-  
-  width: 100%;
-}
-
-/* カード自体のマージンはGridが制御するので0にする */
-.works-grid .card {
-  margin: 0 !important;
-}
