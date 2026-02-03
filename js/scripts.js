@@ -75,7 +75,7 @@ function open_explain(title) {
         link_elm.setAttribute("rel","noopener noreferrer");
     }
 
-        // モーダルslideリンク編集
+    // モーダルslideリンク編集
     let slide_elm = document.getElementById("slide_modal_footer");
     if(works_library[title]["slide"]=="" || !works_library[title]["slide"]){
         slide_elm.style.display = 'none';
