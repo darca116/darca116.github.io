@@ -5806,6 +5806,8 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
+
+  background-color: #7CD0F2;
 }
 .carousel-inner::after {
   display: block;
@@ -5821,8 +5823,6 @@ textarea.form-control-lg {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
-
-  background-color: #7CD0F2;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -5830,8 +5830,8 @@ textarea.form-control-lg {
   }
 }
 .carousel-item img{
-  max-height: 60vh;
-  width: auto;
+  max-height: 60vh !important;
+  width: auto !important;
   margin: 0 auto;
   object-fit: contain;
 }
