@@ -5828,6 +5828,7 @@ textarea.form-control-lg {
   }
 }
 .carousel-item img{
+  background-color: 7CD0F2;
   max-height: 60vh;
   width: auto;
   margin: 0 auto;
