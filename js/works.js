@@ -41,7 +41,7 @@ const works_library = {
                     '・AndroidStudio・XML・Java・AndoroidSDK・GitHub',
                     ].join('<br>'),
         'github': 'https://github.com/p2hacks2024/pre-18',
-        'link': ''
+        'link': 'https://drive.google.com/file/d/1ZQbcCV8CokfQq7UqUEY2O71vckDAXcT-/preview'
     },
     'my_portfolio': {
         'title': 'Portforlio',
