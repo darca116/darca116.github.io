@@ -19,13 +19,14 @@ const works_library = {
                     '・8thWall・HTML・CSS・JavaScript・A-Frame・Firebase・Blender・Adobe Illustrator・Figma',
                     ].join('<br>'),
         'github': '',
-        'link': ''
+        'link': '',
+        'slide': ''
     },
     'memocolle': {
         'title': 'MemoColle(メモコレ)',
-        'image': './assets/img/memocolle1.png',
-        'image2': './assets/img/memocolle2.png',
-        'image3': './assets/img/memocolle3.png',
+        'image': './assets/img/memocolle1.jpg',
+        'image2': './assets/img/memocolle2.jpg',
+        'image3': './assets/img/memocolle3.jpg',
         'explain': [
                     '',
                     'スマホで撮った大切な思い出の写真を振り返る、モバイルアプリケーションです。',
@@ -41,7 +42,8 @@ const works_library = {
                     '・AndroidStudio・XML・Java・AndoroidSDK・GitHub',
                     ].join('<br>'),
         'github': 'https://github.com/p2hacks2024/pre-18',
-        'link': 'https://drive.google.com/file/d/1ZQbcCV8CokfQq7UqUEY2O71vckDAXcT-/preview'
+        'link': '',
+        'slide': 'https://drive.google.com/file/d/1ZQbcCV8CokfQq7UqUEY2O71vckDAXcT-/preview'
     },
     'my_portfolio': {
         'title': 'Portforlio',
@@ -59,7 +61,8 @@ const works_library = {
                     '・HTML・CSS・JavaScript(jQuery)・Bootstrap・GitHub',
                     ].join('<br>'),
         'github': 'https://github.com/darca116/darca116.github.io',
-        'link': 'https://darca116.github.io/'
+        'link': 'https://darca116.github.io/',
+        'slide': ''
     },
     'tatol': {
         'title': 'ギタイシュガメ',
@@ -82,7 +85,8 @@ const works_library = {
                     '・Arduino・Blender・Adobe Illustrator・レーザー加工機・3Dプリンター',
                     ].join('<br>'),
         'github': '',
-        'link': ''
+        'link': '',
+        'slide': ''
     },
     'solme': {
         'title': 'Solme(ソルミー)',
@@ -102,7 +106,8 @@ const works_library = {
                     '・Adobe Illustrator・Figma・GituHub',
                     ].join('<br>'),
         'github': '',
-        'link': ''
+        'link': '',
+        'slide': ''
     },
     'typing': {
         'title': 'typing',
@@ -121,6 +126,7 @@ const works_library = {
                     '',
                     ].join('<br>'),
         'github': 'https://github.com/darca116',
-        'link': 'https://github.com/darca116'
+        'link': 'https://github.com/darca116',
+        'slide': ''
     },
 }
