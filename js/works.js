@@ -24,9 +24,9 @@ const works_library = {
     },
     'memocolle': {
         'title': 'MemoColle(メモコレ)',
-        'image': './assets/img/memocolle1.jpg',
-        'image2': './assets/img/memocolle2.jpg',
-        'image3': './assets/img/memocolle3.jpg',
+        'image': './assets/img/works/memocolle1.jpg',
+        'image2': './assets/img/works/memocolle2.jpg',
+        'image3': './assets/img/works/memocolle3.jpg',
         'explain': [
                     '',
                     'スマホで撮った大切な思い出の写真を振り返る、モバイルアプリケーションです。',
