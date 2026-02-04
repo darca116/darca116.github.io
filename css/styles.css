@@ -5831,7 +5831,7 @@ textarea.form-control-lg {
   }
 }
 .carousel-item img{
-  max-height: 60vh !important;
+  max-height: 40vh !important;
   width: auto !important;
   margin: 0 auto;
   object-fit: contain;
