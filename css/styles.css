@@ -5807,7 +5807,7 @@ textarea.form-control-lg {
   width: 100%;
   overflow: hidden;
 
-  background-color: #7CD0F2;
+  /*background-color: #7CD0F2;*/
 }
 .carousel-inner::after {
   display: block;
@@ -5829,12 +5829,12 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.carousel-item img{
+/*.carousel-item img{
   max-height: 60vh !important;
   width: auto !important;
   margin: 0 auto;
   object-fit: contain;
-}
+}*/
 
 .carousel-item.active,
 .carousel-item-next,
