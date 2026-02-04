@@ -5833,8 +5833,8 @@ textarea.form-control-lg {
 .carousel-item img{
   max-height: 40vh !important;
   width: auto !important;
+  object-fit: contain !important;
   margin: 0 auto;
-  object-fit: contain;
 }
 
 .carousel-item.active,
