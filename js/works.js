@@ -1,7 +1,7 @@
 const works_library = {
     'hakomob': {
         'title': 'HakoMob(ハコモブ)',
-        'image': './assets/img/works/tetrisweb1.png',
+        'image': './assets/img/works/tetrisweb.png',
         'image2': './assets/img/works/tetrisweb2.png',
         'image3': './assets/img/works/tetrisweb3.png',
         'explain': [
