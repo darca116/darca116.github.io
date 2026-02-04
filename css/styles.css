@@ -5830,12 +5830,12 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-/*.carousel-item img{
+.carousel-item img{
   max-height: 60vh !important;
   width: auto !important;
   margin: 0 auto;
   object-fit: contain;
-}*/
+}
 
 .carousel-item.active,
 .carousel-item-next,
