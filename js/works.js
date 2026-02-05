@@ -47,9 +47,12 @@ const works_library = {
     },
     'my_portfolio': {
         'title': 'Portforlio',
-        'image': './assets/img/portfolio1.png',
-        'image2': './assets/img/portfolio2.png',
-        'image3': './assets/img/portfolio3.png',
+        'image': './assets/img/works/portfolio1.png',
+        'image2': './assets/img/works/portfolio2.jpg',
+        'image3': './assets/img/works/portfolio3.png',
+        'image4': './assets/img/works/portfolio4.jpg',
+        'image5': './assets/img/works/portfolio5.png',
+        'image6': './assets/img/works/portfolio6.jpg',
         'explain': [
                     '',
                     'このサイトです。主にbootstrapで作成して、GitHubPagesを通して公開しています。',
@@ -66,7 +69,7 @@ const works_library = {
     },
     'tatol': {
         'title': 'ギタイシュガメ',
-        'image': './assets/img/tatol1.png',
+        'image': './assets/img/works/tatol1.jpg',
         'image2': './assets/img/tatol2.png',
         'image3': './assets/img/tatol3.png',
         'explain': [
