@@ -70,8 +70,8 @@ const works_library = {
     'tatol': {
         'title': 'ギタイシュガメ',
         'image': './assets/img/works/tatol1.jpg',
-        'image2': './assets/img/tatol2.png',
-        'image3': './assets/img/tatol3.png',
+        'image2': './assets/img/works/tatol2.png',
+        'image3': './assets/img/works/tatol3.png',
         'explain': [
                     '',
                     '未来大に生息する仮想生物の作品です。函館を守るカメの神様の幼体をイメージしています。',
