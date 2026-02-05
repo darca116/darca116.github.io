@@ -53,6 +53,7 @@ function open_explain(title) {
     let image_elm3 = document.getElementById("explain_modal_image3");
     image_elm3.setAttribute("src", works_library[title]["image3"]);
 
+    //写真あればさらに追加
     if(works_library[title]["image4"]=="" || !works_library[title]["image4"]==""){}
     else{   let image_elm4 = document.getElementById("explain_modal_image4");
             image_elm4.setAttribute("src", works_library[title]["image4"]);}
