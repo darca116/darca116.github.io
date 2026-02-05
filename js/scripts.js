@@ -53,6 +53,18 @@ function open_explain(title) {
     let image_elm3 = document.getElementById("explain_modal_image3");
     image_elm3.setAttribute("src", works_library[title]["image3"]);
 
+    if(works_library[title]["image4"]=="" || !works_library[title]["image4"]==""){}
+    else{   let image_elm4 = document.getElementById("explain_modal_image4");
+            image_elm4.setAttribute("src", works_library[title]["image4"]);}
+
+    if(works_library[title]["image5"]=="" || !works_library[title]["image5"]==""){}
+    else{   let image_elm5 = document.getElementById("explain_modal_image5");
+            image_elm5.setAttribute("src", works_library[title]["image5"]);}
+
+    if(works_library[title]["image6"]=="" || !works_library[title]["image6"]==""){}
+    else{   let image_elm6 = document.getElementById("explain_modal_image6");
+            image_elm6.setAttribute("src", works_library[title]["image6"]);}
+
     // モーダルgithubリンク編集
     let file_elm = document.getElementById("explain_modal_footer");
     if(works_library[title]["github"]=="" || !works_library[title]["github"]){
