@@ -1,9 +1,9 @@
 const works_library = {
     'hakomob': {
         'title': 'HakoMob(ハコモブ)',
-        'image': './assets/img/works/tetrisweb.png',
-        'image2': './assets/img/works/tetrisweb2.png',
-        'image3': './assets/img/works/tetrisweb3.png',
+        'image': './assets/img/works/hakomob1.jpg',
+        'image2': './assets/img/works/hakomob2.jpg',
+        'image3': './assets/img/works/hakomob3.jpg',
         'explain': [
                     '',
                     'ユーザーがモバイルで描いた絵が、AR空間上に浮かび上がるwebARアプリケーションです。',
@@ -20,7 +20,7 @@ const works_library = {
                     ].join('<br>'),
         'github': '',
         'link': '',
-        'slide': ''
+        'slide': 'https://drive.google.com/file/d/1jn9KQnocAfYX_DVtAeWIcfVsV9vJduMe/preview'
     },
     'memocolle': {
         'title': 'MemoColle(メモコレ)',
