@@ -109,24 +109,4 @@ const works_library = {
         'link': '',
         'slide': 'https://drive.google.com/file/d/1nH2_VcLVNv4rM6fXzCDDoYtMjSRL9dSf/preview'
     },
-    'typing': {
-        'title': 'typing',
-        'image': './assets/img/typing.png',
-        'image2': './assets/img/typing2.png',
-        'image3': './assets/img/typing3.png',
-        'explain': [
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    '・',
-                    '',
-                    ].join('<br>'),
-        'github': 'https://github.com/darca116',
-        'link': 'https://github.com/darca116',
-        'slide': ''
-    },
 }
