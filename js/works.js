@@ -86,7 +86,7 @@ const works_library = {
                     ].join('<br>'),
         'github': '',
         'link': '',
-        'slide': ''
+        'slide': 'https://drive.google.com/file/d/17ENmX6BXcr9ankmoXGnMl9HFxfPsbeIT/preview'
     },
     'solme': {
         'title': 'Solme(ソルミー)',
