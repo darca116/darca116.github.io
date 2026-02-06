@@ -67,7 +67,7 @@ const works_library = {
     'tatol': {
         'title': 'ギタイシュガメ',
         'image': './assets/img/works/tatol1.jpg',
-        'image2': './assets/img/works/tatol2.png',
+        'image2': './assets/img/works/tatol2.jpg',
         'image3': './assets/img/works/tatol3.png',
         'explain': [
                     '',
