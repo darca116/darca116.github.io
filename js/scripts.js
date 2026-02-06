@@ -53,27 +53,6 @@ function open_explain(title) {
     let image_elm3 = document.getElementById("explain_modal_image3");
     image_elm3.setAttribute("src", works_library[title]["image3"]);
 
-    let image_elm5 = document.getElementById("explain_modal_image5");
-    let image_elm4 = document.getElementById("explain_modal_image4");
-    let image_elm6 = document.getElementById("explain_modal_image6");
-
-    //写真あればさらに追加
-    if(works_library[title]["image4"]=="" || !works_library[title]["image4"]){}
-    else{
-        image_elm4.setAttribute("src", works_library[title]["image4"]);
-    }
-
-    if(works_library[title]["image5"]=="" || !works_library[title]["image5"]){}
-    else{
-        image_elm5.setAttribute("src", works_library[title]["image5"]);
-    }
-
-    if(works_library[title]["image6"]=="" || !works_library[title]["image6"]){}
-    else{
-        image_elm6.setAttribute("src", works_library[title]["image6"]);
-    }
-
-
     // モーダルgithubリンク編集
     let file_elm = document.getElementById("explain_modal_footer");
     if(works_library[title]["github"]=="" || !works_library[title]["github"]){
@@ -107,7 +86,13 @@ function open_explain(title) {
         slide_elm.setAttribute("rel","noopener noreferrer");
     }
 
-    const explainModal = new bootstrap.Modal(document.getElementById('exampleModal2'), {});
+    //写真の表示位置を初期化
+    const carouselElm = document.getElementById('carouselExampleControlsNoTouching');
+    const carousel = bootstrap.Carousel.getInstance(carouselElm) || new bootstrap.Carousel(carouselElm);
+    carousel.to(0);
+
+    const modalElm = document.getElementById('exampleModal2');
+    const explainModal = bootstrap.Modal.getInstance(modalElm) || new bootstrap.Modal(modalElm);
     explainModal.show();
 }
 

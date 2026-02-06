@@ -49,10 +49,7 @@ const works_library = {
         'title': 'Portforlio',
         'image': './assets/img/works/portfolio1.png',
         'image2': './assets/img/works/portfolio2.png',
-        'image3': './assets/img/works/portfolio3.png',
-        'image4': '',
-        'image5': './assets/img/works/portfolio5.png',
-        'image6': '',
+        'image3': './assets/img/works/portfolio3.jpg',
         'explain': [
                     '',
                     'このサイトです。主にbootstrapで作成して、GitHubPagesを通して公開しています。',
