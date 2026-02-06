@@ -90,9 +90,9 @@ const works_library = {
     },
     'solme': {
         'title': 'Solme(ソルミー)',
-        'image': './assets/img/solme1.png',
-        'image2': './assets/img/solme2.png',
-        'image3': './assets/img/solme3.png',
+        'image': './assets/img/works/solme1.png',
+        'image2': './assets/img/works/solme2.png',
+        'image3': './assets/img/works/solme3.png',
         'explain': [
                     '',
                     '日光を浴びることを習慣化させてくれる、モバイルアプリケーションです。',
