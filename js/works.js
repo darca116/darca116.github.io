@@ -101,13 +101,13 @@ const works_library = {
                     '『バランス』というテーマから生活バランスに着目して、日光を浴びることで生活バランスを整えることをコンセプトにしました。',
                     '日光を浴びた時間を、AIで生成する自らのアバターの体調や様子を使って可視化することで、ユーザーの行動変容を促します。',
                     '',
-                    '主にデザイナーサイドとして参加し、UI/UXデザイン・ロゴデザイン・発表用スライドの作成を担当しました。',
+                    '主にデザイナーサイドとして参加し、UI/UXデザイン・ロゴデザインを担当しました。',
                     '',
                     '・Adobe Illustrator・Figma・GituHub',
                     ].join('<br>'),
         'github': '',
         'link': '',
-        'slide': ''
+        'slide': 'https://drive.google.com/file/d/1nH2_VcLVNv4rM6fXzCDDoYtMjSRL9dSf/preview'
     },
     'typing': {
         'title': 'typing',
