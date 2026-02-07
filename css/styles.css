@@ -4285,6 +4285,8 @@ textarea.form-control-lg {
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .card-img,
@@ -5809,8 +5811,6 @@ textarea.form-control-lg {
   position: relative;
   width: 100%;
   overflow: hidden;
-
-  /*background-color: #7CD0F2;*/
 }
 .carousel-inner::after {
   display: block;
