@@ -5833,13 +5833,23 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
 .carousel-item img{
+  max-height: 80vh;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.carousel-modal img{
   max-height: 50vh;
   max-width: 100%;
   width: auto;
   object-fit: contain;
   margin: 0 auto;
 }
+
+
 
 .carousel-item.active,
 .carousel-item-next,
