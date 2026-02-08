@@ -56,7 +56,7 @@ const works_library = {
                     '就職活動や、今後の作品をまとめるために制作しました。',
                     '',
                     '大枠は<a href="https://startbootstrap.com/theme/resume" class="modal-link" target="_blank" rel="noopener noreferrer">インターネット上のテンプレート</a>をもとにし、細部はbootstrapのコンポーネントやライブラリを用いてカスタマイズしています。',
-                    '携帯で見てもPCでも見ても表示が大きく崩れない、レスポンシブデザインを意識して制作しました。',
+                    'モバイルで見てもPCでも見ても表示が大きく崩れない、レスポンシブデザインを意識して制作しました。',
                     '',
                     '・HTML・CSS・JavaScript(jQuery)・Bootstrap・GitHub',
                     ].join('<br>'),
