@@ -7,7 +7,7 @@ const works_library = {
         'explain': [
                     '',
                     'ユーザーがモバイルで描いた絵が、AR空間上に浮かび上がるwebARアプリケーションです。',
-                    '大学のプロジェクト学習で制作しました。',
+                    '大学のプロジェクト学習でチーム制作しました。',
                     '<a href="https://www.fun.ac.jp/project-learning" class="modal-link" target="_blank" rel="noopener noreferrer">(学生が複数人でテーマに沿って、問題提起から問題解決までのプロセスを行う通年授業)</a>',
                     '',
                     '『AR技術で棒二森屋跡地(函館駅前)をハックする』というテーマから、学生が主体となって開発したものです。',
@@ -30,7 +30,7 @@ const works_library = {
         'explain': [
                     '',
                     'スマホで撮った大切な思い出の写真を振り返る、モバイルアプリケーションです。',
-                    '未来大在学時に学内ハッカソン<a href="https://p2hacks2024.github.io/" class="modal-link" target="_blank" rel="noopener noreferrer">P2hacks2024</a>で制作しました。',
+                    '未来大在学時に学内ハッカソン<a href="https://p2hacks2024.github.io/" class="modal-link" target="_blank" rel="noopener noreferrer">P2hacks2024</a>でチーム制作しました。',
                     '',
                     '『フラッシュ』というP2hacks2024の共通テーマから、思い出を想起する「フラッシュバック」や、カメラの「フラッシュ」を連想してコンセプトを練っていきました。',
                     'ユーザーの思い出の写真をピックアップした後、時系列順に並び替えるクイズが出題され、正解すると写真が美術館へ登録されます。',
@@ -53,7 +53,7 @@ const works_library = {
         'explain': [
                     '',
                     'このサイトです。主にbootstrapで作成して、GitHubPagesを通して公開しています。',
-                    '就職活動や、今後の作品をまとめるために制作しました。',
+                    '就職活動や、今後の作品をまとめるために個人制作しました。',
                     '',
                     '大枠は<a href="https://startbootstrap.com/theme/resume" class="modal-link" target="_blank" rel="noopener noreferrer">インターネット上のテンプレート</a>をもとにし、細部はbootstrapのコンポーネントやライブラリを用いてカスタマイズしています。',
                     'モバイルで見てもPCでも見ても表示が大きく崩れない、レスポンシブデザインを意識して制作しました。',
@@ -72,7 +72,7 @@ const works_library = {
         'explain': [
                     '',
                     '未来大に生息する仮想生物の作品です。函館を守るカメの神様の幼体をイメージしています。',
-                    '『公立はこだて未来大学に生息する仮想生物』をテーマに、Arduinoを活用する授業で制作しました。',
+                    '『公立はこだて未来大学に生息する仮想生物』をテーマに、Arduinoを活用する授業で個人制作しました。',
                     '',
                     '未来大に多く設置されている円卓テーブルをモチーフに、大学の住所である亀田ともかけて、カメの守り神という設定を考えました。',
                     'まだ子どもなので擬態は出来ず、好奇心旺盛なので逆に人間に気付いてもらおうとしています。',
@@ -96,7 +96,7 @@ const works_library = {
         'explain': [
                     '',
                     '日光を浴びることを習慣化させてくれる、モバイルアプリケーションです。',
-                    '未来大在学時に学外ハッカソン<a href="https://spajam.jp/" class="modal-link" target="_blank" rel="noopener noreferrer">SPAJAM2025</a>で制作しました',
+                    '未来大在学時に学外ハッカソン<a href="https://spajam.jp/" class="modal-link" target="_blank" rel="noopener noreferrer">SPAJAM2025</a>でチーム制作しました',
                     '',
                     '『バランス』というテーマから生活バランスに着目して、日光を浴びることで生活バランスを整えることをコンセプトにしました。',
                     '日光を浴びた時間を、AIで生成する自らのアバターの体調や様子を使って可視化することで、ユーザーの行動変容を促します。',
@@ -108,5 +108,27 @@ const works_library = {
         'github': '',
         'link': '',
         'slide': 'https://drive.google.com/file/d/1nH2_VcLVNv4rM6fXzCDDoYtMjSRL9dSf/preview'
+    },
+        'catchyou': {
+        'title': 'CatchYou!!',
+        'image': './assets/img/works/catchyou1.png',
+        'image2': './assets/img/works/catchyou2.png',
+        'image3': './assets/img/works/catchyou4.png',
+        'explain': [
+                    '',
+                    '話した人をキャッチコピーで復習する、大学生の新しい友人作りを支援するモバイルアプリケーションです。',
+                    '未来大在学時に情報デザインⅡという授業でチーム制作しました。',
+                    '',
+                    'PEST分析やカスタマージャーニー・ステークホルダーなど、マーケティング的な概念を取り入れながら、大学生が使うアプリケーションを考えるという授業テーマの基に考えました。',
+                    '「はじめまして」という単語をウェイクワードとして会話の録音を開始し、初対面で話した人の特徴や性格などを記録してくれます。',
+                    'この記録を見返すことで、初対面の【友達候補】が増えがちな大学生あるあるの「この人どんなひとだっけ？」という悩みを解消してくれます。',
+                    '',
+                    '※アイデアとUI/UXの制作までで、実際のアプリケーションは存在しません。',
+                    '',
+                    '・Adobe Illustrator・Figma・ペルソナ・PEST分析・カスタマージャーニー・ステークホルダー',
+                    ].join('<br>'),
+        'github': '',
+        'link': '',
+        'slide': 'https://drive.google.com/file/d/1Ar4ok4uU-sRo51CoBnqbpCqKajQPCQAB/preview'
     },
 }
