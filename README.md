@@ -1,5 +1,5 @@
 # [ポートフォリオサイト](https://darca116.github.io/)
-##Preview
+## Preview
 ![preview](https://github.com/user-attachments/assets/905f1dc6-1aee-46cf-9910-8346e732eb12)
 自身の成果物やスキルをまとめて、就活に役立てるためにポートフォリオサイトを作成しました<br>
 大枠はインターネット上で公開されている[テンプレート](https://startbootstrap.com/theme/resume#google_vignette)をもとにし、<br>
